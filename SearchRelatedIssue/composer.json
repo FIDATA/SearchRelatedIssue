@@ -1,0 +1,13 @@
+{
+    "name": "fidata/search-related-issue",
+    "description": "The plugin implements a live search for related issues during the creation of a new issue",
+    "type": "mantisbt-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "brlumen",
+            "email": "igflocal@gmail.com"
+        }
+    ],
+    "require": {}
+}

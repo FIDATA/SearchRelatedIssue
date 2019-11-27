@@ -31,3 +31,12 @@ Supported Versions
 ------------------
 
 - MantisBT 2.0 and higher - supported
+
+## Creating Composer package
+
+```
+cd SearchRelatedIssue
+mkdir build
+composer archive --format=zip --dir=build --file=SearchRelatedIssue
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/SearchRelatedIssue.zip;composer.version=1.0.1" -T build/SearchRelatedIssue.zip
+```
