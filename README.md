@@ -37,6 +37,6 @@ Supported Versions
 ```
 cd SearchRelatedIssue
 mkdir build
-composer archive --format=zip --dir=build --file=SearchRelatedIssue
-curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/SearchRelatedIssue.zip;composer.version=1.0.1" -T build/SearchRelatedIssue.zip
+composer archive --format=zip --dir=build --file=SearchRelatedIssue-1.0.1
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/SearchRelatedIssue-1.0.1.zip;composer.version=1.0.1" -T build/SearchRelatedIssue-1.0.1.zip
 ```
