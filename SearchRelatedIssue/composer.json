@@ -9,5 +9,9 @@
             "email": "igflocal@gmail.com"
         }
     ],
-    "require": {}
+    "archive": {
+        "exclude": [
+            ".gitignore"
+        ]
+    }
 }
